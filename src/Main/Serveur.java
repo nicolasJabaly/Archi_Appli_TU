@@ -14,4 +14,8 @@ public class Serveur {
         this.chiffreDAffaire = chiffreDAffaire;
     }
 
+    public void prendreCommande(Integer montant) {
+        this.chiffreDAffaire += montant;
+    }
+
 }
